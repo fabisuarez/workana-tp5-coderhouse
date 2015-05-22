@@ -5483,22 +5483,30 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background-color: #f1b94a; }
-
-.Header .Header-Logo {
-  padding: 20px 40px;
-  background: #fff; }
-  .Header .Header-Logo img {
-    max-width: 300px;
+  background-color: #f1b94a;
+  font-family: "Open Sans", sans-serif; }
+  body .Header {
+    background-size: cover;
+    background: url("../images/slider.jpg");
     width: 100%; }
-.Header .Header-Menu {
-  background: #f1b94a;
-  padding: 10px; }
-  .Header .Header-Menu nav ul li a {
-    background: #fff;
-    color: #000; }
-    .Header .Header-Menu nav ul li a:hover {
-      background: #000;
-      color: #fff; }
+    body .Header .Header-Logo {
+      padding: 20px 40px; }
+      body .Header .Header-Logo img {
+        max-width: 300px;
+        width: 100%; }
+    body .Header .Header-Menu {
+      padding: 10px; }
+      body .Header .Header-Menu nav ul li a {
+        background: #fff;
+        color: #000; }
+        body .Header .Header-Menu nav ul li a:hover {
+          background: #000;
+          color: #fff; }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .Header .Header-Logo {
+    background: #fff; }
+  .Header .Header-Menu {
+    background: #f1b94a; } }
 
 /*# sourceMappingURL=style.css.map */
