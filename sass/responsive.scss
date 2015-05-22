@@ -1,0 +1,13 @@
+@media screen and #{$desktop} {
+}
+
+@media screen and #{$phone-tablet} {
+    .Header{
+        .Header-Logo{
+            background: #fff;
+        }
+        .Header-Menu{
+            background: $naranja;
+        }
+    }
+}
