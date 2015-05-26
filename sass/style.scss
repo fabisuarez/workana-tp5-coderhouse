@@ -166,37 +166,79 @@ body{
 		background: url("../images/comentarios-bg.jpg");
 		width: 100%;
 		.container{
-			width: 870px;
-			padding: 40px 0 90px 0;
+			width: 1075px;
+			padding: 40px 0 0px 0;
 			.Comentario{
 				span{
-					color: #fff;
-					font-size: 150px;
-					float: left;
-					line-height: 120px;
+				    color: #fff;
+					  font-size: 147px;
+					  float: left;
+					  line-height: 93px;
+					  width: 65px;
+					  height: 49px;
+					  margin-top: 20px;
+				}
+				.Comentario-Comillas-Left{
+					background: url("../images/comillas-comment.png") no-repeat;
+
+				}
+				.Comentario-Comillas-Right{
+					background: url("../images/comillas-comment.png") no-repeat;
+
 				}
 				p{
 					color: #fff;
-					font-size: 31px;
+					font-size: 36px;
 					font-style: italic;
 					font-weight: lighter;
-					width: 86%;
+					width: 87%;
 					float: left;
-					line-height: 29px;
+					line-height: 36px;
+					border-bottom: 1px solid #fff;
+					padding-bottom: 20px;
+					letter-spacing: 1px;
+					margin-bottom: 0px;
 				}
 			}
 			.Comentario-User{
+				padding-top: 30px;
+				a.active{
+					opacity: 1;
+					span{
+						  position: absolute;
+						  top: -17px;
+						  left: 45%;
+						  font-size: 30px;
+						  color: #fff;
+					}
+					img{
+						opacity: 1;
+					}
+					h4{
+						opacity: 1;
+
+					}
+					p{
+						opacity: 1;
+
+					}
+				}
 				a{
+					opacity: 0.5;
 					text-decoration: none;
 					img{
-						  border-radius: 50%;
+						border-radius: 50%;
   						width: 60%;
+						opacity: 0.5;
+
 					}
 					h4{
 						color: $blanco;
 						  font-size: 20px;
 						  text-align: left;
 						  margin-bottom: 0;
+					opacity: 0.5;
+
 					}
 					p{
 						color: $blanco;
@@ -205,8 +247,110 @@ body{
 						  font-weight: lighter;
 						  line-height: 12px;
 						  text-align: left;
+					opacity: 0.5;
+
 					}
 				}
+			}
+			.Comentario-Bulets{
+				padding-top: 15px;
+				ul{
+					  display: inline-block;
+					  list-style: none;
+					  margin: 0;
+					  padding: 0;
+					li{
+						  float: left;
+  						margin: 5px;
+						a{
+							  padding: 5px;
+							  display: inline-block;
+							  background-color: #fff;
+							  border-radius: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.Profesionales{
+		background: #333333;
+		padding: 45px 0;
+		.container{
+			width: 1000px;
+			padding: 10px;
+			p{
+				color: $blanco;
+				font-size: 32px;
+				line-height: 32px;
+			}
+			.Profesiones{
+				.Profesion{
+					margin: 40px 0;
+					float: left;
+					span{
+						border-radius: 50%;
+					  padding: 5px;
+					  border: 1px solid #fff;
+					  color: #fff;
+					  display: inline-block;
+					  width: 32px;
+					  text-align: center;
+					  margin-right: 13px;
+					}
+					p{
+						  color: #fff;
+						  font-size: 12px;
+						  display: inline-block;
+						  margin: 0;
+						  line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+	.Latin-Crea{
+		background-size: cover;
+		background: url("../images/latin-crea-bg.jpg");
+		width: 100%;
+		.container{
+			width: 870px;
+			padding: 70px 0 92px 0;
+			h3{
+				font-size: 28px;
+				color: #333333;
+				text-transform: uppercase;
+				font-weight: 800;
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				padding: 10px 0;
+				color: #333333;
+			}
+			botton{
+				padding: 12px 20px;
+			}
+		}
+	}
+	.Que-Es{
+		background-size: cover;
+		background: url("../images/que-es-workana-bg.jpg");
+		width: 100%;
+		.container{
+			width: 1075px;
+			padding: 90px 0 114px 0;
+			h3{
+				font-size: 28px;
+				color: $blanco;
+				text-transform: uppercase;
+				font-weight: 800;
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				padding: 10px 0;
+				color: $blanco;
 			}
 		}
 	}
