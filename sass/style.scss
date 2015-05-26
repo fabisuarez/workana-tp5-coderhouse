@@ -5,30 +5,206 @@
 body{
 	background-color: $naranja;
 	font-family: $font-family;
+	.btn-naranja{
+		border-radius: 3px;
+		background: rgba(228, 179, 66, 0.8);
+		color: $blanco;
+		padding: 12px 55px;
+		font-weight: bold;
+	}
 	.Header{
 		background-size: cover;
 		background: url("../images/slider.jpg");
 		width: 100%;
-		.Header-Logo{
-			padding: 20px 40px;
-			img{
-				max-width: 300px;
-				width: 100%;
+		.container{
+			width: 870px;
+			.Header-Logo{
+				padding: 20px 0px;
+				img{
+					padding: 10px 10px 10px 0;
+					max-width: 150px;
+					width: 100%;
+				}
 			}
-		}
-		.Header-Menu{
-			padding: 10px;
-			nav{
-				ul{
-					li{
-						a{
-							background: #fff;
-							color: #000;
-							&:hover{
-								background: #000;
+			.Header-Menu{
+				padding: 20px 0;
+				nav{
+					padding-left: 40px;
+					ul{
+						li{
+							a{
+								border-left: 1px solid $blanco;
+								line-height: 10px;
 								color: #fff;
+								margin: 10px 0;
+								padding: 0px 15px;
+								border-radius: 0;
+								font-size: 12px;
+								&:hover{
+									background: none;
+									color: #fff;
+								}
+							}
+
+							&:first-child a{
+								border-left: none;
+								&:hover{
+
+								}
+							}
+
+							&:last-child a{
+								background: $blanco;
+								color: $azul;
+								padding: 10px 50px 10px 55px;
+								margin: 0 0 0 10px;
+								border-radius: 5px;
+								font-weight: bold;
+								border-left: none;
+								&:hover{
+									background: $azul;
+									color: $blanco;
+									span{
+									color: $blanco;
+									}
+								}
+								span{
+									color: $negro;
+	  								padding-left: 5px;
+								}
 							}
 						}
+					}
+				}
+			}
+			.Header-Frase{
+				padding: 179px 0 110px 0;
+				p{
+					padding: 15px 12px;
+					background: rgba(0, 0, 0, 0.5);
+					text-transform: uppercase;
+					font-size: 48px;
+					border-radius: 3px;
+					color: #fff;
+					font-weight: 800;
+					line-height: 40px;
+					letter-spacing: -3px;
+					width: 92%;
+				}
+
+			}
+		}
+	}
+	.Por-Que{
+		background: $blanco;
+		.container{
+			width: 870px;
+			padding: 10px;
+			h2{
+				font-size: 38px;
+				color: $naranja;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: 800;
+				padding: 15px 0;
+				margin: 0;
+			}
+			p{
+				color: $grisTipo;
+			}
+			ul{
+				padding-left: 20px;
+  				font-weight: bold;
+  				margin-bottom: 20px;
+				li{
+				}
+			}
+		}
+	}
+	.Recursos{
+		background-size: cover;
+		background: url("../images/recursos-bg.jpg");
+		width: 100%;
+		.container{
+			width: 870px;
+			padding: 40px 0 90px 0;
+			h3{
+				font-size: 28px;
+				color: $blanco;
+				text-transform: uppercase;
+				font-weight: 800;
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				padding: 10px 0;
+				color: $blanco;
+				letter-spacing: 1px;
+			}
+			ul{
+				list-style: none;
+				margin: 10px 0;
+				padding: 0px;
+				li{
+					float: left;
+					span{
+						font-size: 65px;
+						color: $blanco;
+						padding: 15px;
+					}
+					&:first-child{
+						span{
+							padding-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.Comentarios{
+		background-size: cover;
+		background: url("../images/comentarios-bg.jpg");
+		width: 100%;
+		.container{
+			width: 870px;
+			padding: 40px 0 90px 0;
+			.Comentario{
+				span{
+					color: #fff;
+					font-size: 150px;
+					float: left;
+					line-height: 120px;
+				}
+				p{
+					color: #fff;
+					font-size: 31px;
+					font-style: italic;
+					font-weight: lighter;
+					width: 86%;
+					float: left;
+					line-height: 29px;
+				}
+			}
+			.Comentario-User{
+				a{
+					text-decoration: none;
+					img{
+						  border-radius: 50%;
+  						width: 60%;
+					}
+					h4{
+						color: $blanco;
+						  font-size: 20px;
+						  text-align: left;
+						  margin-bottom: 0;
+					}
+					p{
+						color: $blanco;
+						font-size: 10px;
+						  font-style: italic;
+						  font-weight: lighter;
+						  line-height: 12px;
+						  text-align: left;
 					}
 				}
 			}

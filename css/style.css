@@ -5485,23 +5485,156 @@ button.close {
 body {
   background-color: #f1b94a;
   font-family: "Open Sans", sans-serif; }
+  body .btn-naranja {
+    border-radius: 3px;
+    background: rgba(228, 179, 66, 0.8);
+    color: #fff;
+    padding: 12px 55px;
+    font-weight: bold; }
   body .Header {
     background-size: cover;
     background: url("../images/slider.jpg");
     width: 100%; }
-    body .Header .Header-Logo {
-      padding: 20px 40px; }
-      body .Header .Header-Logo img {
-        max-width: 300px;
-        width: 100%; }
-    body .Header .Header-Menu {
+    body .Header .container {
+      width: 870px; }
+      body .Header .container .Header-Logo {
+        padding: 20px 0px; }
+        body .Header .container .Header-Logo img {
+          padding: 10px 10px 10px 0;
+          max-width: 150px;
+          width: 100%; }
+      body .Header .container .Header-Menu {
+        padding: 20px 0; }
+        body .Header .container .Header-Menu nav {
+          padding-left: 40px; }
+          body .Header .container .Header-Menu nav ul li a {
+            border-left: 1px solid #fff;
+            line-height: 10px;
+            color: #fff;
+            margin: 10px 0;
+            padding: 0px 15px;
+            border-radius: 0;
+            font-size: 12px; }
+            body .Header .container .Header-Menu nav ul li a:hover {
+              background: none;
+              color: #fff; }
+          body .Header .container .Header-Menu nav ul li:first-child a {
+            border-left: none; }
+          body .Header .container .Header-Menu nav ul li:last-child a {
+            background: #fff;
+            color: #143256;
+            padding: 10px 50px 10px 55px;
+            margin: 0 0 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            border-left: none; }
+            body .Header .container .Header-Menu nav ul li:last-child a:hover {
+              background: #143256;
+              color: #fff; }
+              body .Header .container .Header-Menu nav ul li:last-child a:hover span {
+                color: #fff; }
+            body .Header .container .Header-Menu nav ul li:last-child a span {
+              color: #000;
+              padding-left: 5px; }
+      body .Header .container .Header-Frase {
+        padding: 179px 0 110px 0; }
+        body .Header .container .Header-Frase p {
+          padding: 15px 12px;
+          background: rgba(0, 0, 0, 0.5);
+          text-transform: uppercase;
+          font-size: 48px;
+          border-radius: 3px;
+          color: #fff;
+          font-weight: 800;
+          line-height: 40px;
+          letter-spacing: -3px;
+          width: 92%; }
+  body .Por-Que {
+    background: #fff; }
+    body .Por-Que .container {
+      width: 870px;
       padding: 10px; }
-      body .Header .Header-Menu nav ul li a {
-        background: #fff;
-        color: #000; }
-        body .Header .Header-Menu nav ul li a:hover {
-          background: #000;
-          color: #fff; }
+      body .Por-Que .container h2 {
+        font-size: 38px;
+        color: #f1b94a;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 15px 0;
+        margin: 0; }
+      body .Por-Que .container p {
+        color: #666666; }
+      body .Por-Que .container ul {
+        padding-left: 20px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+  body .Recursos {
+    background-size: cover;
+    background: url("../images/recursos-bg.jpg");
+    width: 100%; }
+    body .Recursos .container {
+      width: 870px;
+      padding: 40px 0 90px 0; }
+      body .Recursos .container h3 {
+        font-size: 28px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 0;
+        margin: 0; }
+      body .Recursos .container p {
+        padding: 10px 0;
+        color: #fff;
+        letter-spacing: 1px; }
+      body .Recursos .container ul {
+        list-style: none;
+        margin: 10px 0;
+        padding: 0px; }
+        body .Recursos .container ul li {
+          float: left; }
+          body .Recursos .container ul li span {
+            font-size: 65px;
+            color: #fff;
+            padding: 15px; }
+          body .Recursos .container ul li:first-child span {
+            padding-left: 0px; }
+  body .Comentarios {
+    background-size: cover;
+    background: url("../images/comentarios-bg.jpg");
+    width: 100%; }
+    body .Comentarios .container {
+      width: 870px;
+      padding: 40px 0 90px 0; }
+      body .Comentarios .container .Comentario span {
+        color: #fff;
+        font-size: 150px;
+        float: left;
+        line-height: 120px; }
+      body .Comentarios .container .Comentario p {
+        color: #fff;
+        font-size: 31px;
+        font-style: italic;
+        font-weight: lighter;
+        width: 86%;
+        float: left;
+        line-height: 29px; }
+      body .Comentarios .container .Comentario-User a {
+        text-decoration: none; }
+        body .Comentarios .container .Comentario-User a img {
+          border-radius: 50%;
+          width: 60%; }
+        body .Comentarios .container .Comentario-User a h4 {
+          color: #fff;
+          font-size: 20px;
+          text-align: left;
+          margin-bottom: 0; }
+        body .Comentarios .container .Comentario-User a p {
+          color: #fff;
+          font-size: 10px;
+          font-style: italic;
+          font-weight: lighter;
+          line-height: 12px;
+          text-align: left; }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .Header .Header-Logo {
