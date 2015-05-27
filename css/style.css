@@ -5494,9 +5494,11 @@ body {
   body .Header {
     background-size: cover;
     background: url("../images/slider.jpg");
-    width: 100%; }
+    width: 100%;
+    background-position: top center; }
     body .Header .container {
-      width: 870px; }
+      width: 870px;
+      overflow: hidden; }
       body .Header .container .Header-Logo {
         padding: 20px 0px; }
         body .Header .container .Header-Logo img {
@@ -5504,9 +5506,10 @@ body {
           max-width: 150px;
           width: 100%; }
       body .Header .container .Header-Menu {
-        padding: 20px 0; }
+        padding: 25px 0; }
         body .Header .container .Header-Menu nav {
-          padding-left: 40px; }
+          padding-left: 40px;
+          float: right; }
           body .Header .container .Header-Menu nav ul li a {
             border-left: 1px solid #fff;
             line-height: 10px;
@@ -5537,7 +5540,7 @@ body {
               color: #000;
               padding-left: 5px; }
       body .Header .container .Header-Frase {
-        padding: 179px 0 110px 0; }
+        padding: 176px 0 110px 0; }
         body .Header .container .Header-Frase p {
           padding: 15px 12px;
           background: rgba(0, 0, 0, 0.5);
@@ -5553,7 +5556,8 @@ body {
     background: #fff; }
     body .Por-Que .container {
       width: 870px;
-      padding: 10px; }
+      padding: 10px;
+      overflow: hidden; }
       body .Por-Que .container h2 {
         font-size: 38px;
         color: #f1b94a;
@@ -5571,10 +5575,12 @@ body {
   body .Recursos {
     background-size: cover;
     background: url("../images/recursos-bg.jpg");
-    width: 100%; }
+    width: 100%;
+    background-position: top center; }
     body .Recursos .container {
       width: 870px;
-      padding: 40px 0 90px 0; }
+      padding: 40px 0 90px 0;
+      overflow: hidden; }
       body .Recursos .container h3 {
         font-size: 28px;
         color: #fff;
@@ -5601,10 +5607,12 @@ body {
   body .Comentarios {
     background-size: cover;
     background: url("../images/comentarios-bg.jpg");
-    width: 100%; }
+    width: 100%;
+    background-position: top center; }
     body .Comentarios .container {
       width: 1075px;
-      padding: 40px 0 0px 0; }
+      padding: 40px 0 0px 0;
+      overflow: hidden; }
       body .Comentarios .container .Comentario span {
         color: #fff;
         font-size: 147px;
@@ -5654,13 +5662,13 @@ body {
             opacity: 0.5; }
           body .Comentarios .container .Comentario-User a h4 {
             color: #fff;
-            font-size: 20px;
+            font-size: 16px;
             text-align: left;
             margin-bottom: 0;
             opacity: 0.5; }
           body .Comentarios .container .Comentario-User a p {
             color: #fff;
-            font-size: 10px;
+            font-size: 8px;
             font-style: italic;
             font-weight: lighter;
             line-height: 12px;
@@ -5686,7 +5694,8 @@ body {
     padding: 45px 0; }
     body .Profesionales .container {
       width: 1000px;
-      padding: 10px; }
+      padding: 10px;
+      overflow: hidden; }
       body .Profesionales .container p {
         color: #fff;
         font-size: 32px;
@@ -5712,10 +5721,12 @@ body {
   body .Latin-Crea {
     background-size: cover;
     background: url("../images/latin-crea-bg.jpg");
-    width: 100%; }
+    width: 100%;
+    background-position: top center; }
     body .Latin-Crea .container {
       width: 870px;
-      padding: 70px 0 92px 0; }
+      padding: 70px 0 92px 0;
+      overflow: hidden; }
       body .Latin-Crea .container h3 {
         font-size: 28px;
         color: #333333;
@@ -5731,10 +5742,12 @@ body {
   body .Que-Es {
     background-size: cover;
     background: url("../images/que-es-workana-bg.jpg");
-    width: 100%; }
+    width: 100%;
+    background-position: top center; }
     body .Que-Es .container {
       width: 1075px;
-      padding: 90px 0 114px 0; }
+      padding: 90px 0 114px 0;
+      overflow: hidden; }
       body .Que-Es .container h3 {
         font-size: 28px;
         color: #fff;
@@ -5746,10 +5759,157 @@ body {
         padding: 10px 0;
         color: #fff; }
 
+@media screen and (min-width: 768px) and (max-width: 1075px) {
+  body .Header .container {
+    width: 100%; }
+    body .Header .container .Header-Logo {
+      padding: 20px 20px; }
+    body .Header .container .Header-Menu {
+      padding: 25px 20px; }
+    body .Header .container .Header-Frase {
+      padding: 179px 0 67px 0; }
+  body .Por-Que .container {
+    width: 100%; }
+  body .Recursos .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+  body .Comentarios .container {
+    width: 100%;
+    padding: 15px 0 0px 0; }
+    body .Comentarios .container .Comentario {
+      padding: 0px 15px; }
+      body .Comentarios .container .Comentario span {
+        width: 32px;
+        height: 43px;
+        margin-top: 0px; }
+      body .Comentarios .container .Comentario .Comentario-Comillas-Left {
+        background-size: 100%;
+        background-size: 197%; }
+      body .Comentarios .container .Comentario .Comentario-Comillas-Right {
+        background-size: 100%;
+        background-size: 197%; }
+      body .Comentarios .container .Comentario p {
+        font-size: 25px;
+        width: 85%;
+        line-height: 25px; }
+    body .Comentarios .container .display-none {
+      display: none; }
+    body .Comentarios .container .Comentario-User {
+      padding-top: 30px; }
+      body .Comentarios .container .Comentario-User a.active span {
+        left: 28%; }
+      body .Comentarios .container .Comentario-User .Comentario-User-Img {
+        text-align: right; } }
 @media screen and (min-width: 321px) and (max-width: 767px) {
-  .Header .Header-Logo {
-    background: #fff; }
-  .Header .Header-Menu {
-    background: #f1b94a; } }
+  body .btn-naranja {
+    background: #e4b342;
+    width: 100%;
+    border-radius: 0;
+    padding: 25px 55px;
+    font-size: 20px; }
+  body .Header .container {
+    width: 100%; }
+    body .Header .container .Header-Logo {
+      background: #fff;
+      text-align: center; }
+      body .Header .container .Header-Logo img {
+        padding: 0px; }
+    body .Header .container .Header-Menu {
+      background: #f1b94a;
+      text-align: center; }
+      body .Header .container .Header-Menu nav {
+        display: inline-block;
+        padding-left: 0px;
+        float: none; }
+        body .Header .container .Header-Menu nav ul {
+          text-align: center; }
+          body .Header .container .Header-Menu nav ul li {
+            display: inline-block; }
+        body .Header .container .Header-Menu nav .nav-pills > li {
+          float: none; }
+    body .Header .container .Header-Frase {
+      padding: 179px 0 0px 0; }
+      body .Header .container .Header-Frase p {
+        background: none;
+        font-size: 30px;
+        line-height: 30px; }
+  body .Por-Que .container {
+    width: 100%;
+    padding: 0px 10px; }
+    body .Por-Que .container h2 {
+      font-size: 35px;
+      padding: 15px 0px; }
+    body .Por-Que .container p {
+      text-align: justify;
+      padding: 0px 15px; }
+    body .Por-Que .container ul {
+      padding-left: 20px;
+      font-weight: bold;
+      margin: 15px; }
+    body .Por-Que .container div {
+      padding: 0px; }
+  body .Recursos .container {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 63px; }
+    body .Recursos .container ul li {
+      float: none;
+      display: inline-block; }
+  body .Comentarios .container {
+    width: 100%;
+    padding: 15px 0 0px 0; }
+    body .Comentarios .container .Comentario {
+      padding: 0px 15px; }
+      body .Comentarios .container .Comentario span {
+        width: 32px;
+        height: 43px;
+        margin-top: 0px; }
+      body .Comentarios .container .Comentario .Comentario-Comillas-Left {
+        background-size: 100%;
+        background-size: 197%; }
+      body .Comentarios .container .Comentario .Comentario-Comillas-Right {
+        background-size: 100%;
+        background-size: 197%; }
+      body .Comentarios .container .Comentario p {
+        font-size: 25px;
+        width: 85%;
+        line-height: 25px; }
+    body .Comentarios .container .display-none {
+      display: none; }
+    body .Comentarios .container .Comentario-User {
+      padding-top: 30px; }
+      body .Comentarios .container .Comentario-User a.active span {
+        left: 28%; }
+      body .Comentarios .container .Comentario-User .Comentario-User-Img {
+        text-align: right; }
+  body .Profesionales .container {
+    width: 100%; }
+    body .Profesionales .container p {
+      font-size: 25px; }
+  body .Latin-Crea .container {
+    width: 100%;
+    padding: 20px 10px 0px 10px; }
+    body .Latin-Crea .container div {
+      padding: 0px; }
+    body .Latin-Crea .container h3 {
+      text-align: center;
+      padding: 15px; }
+    body .Latin-Crea .container p {
+      padding: 15px;
+      color: #333333; }
+    body .Latin-Crea .container botton {
+      padding: 25px 20px; }
+  body .Que-Es .container {
+    width: 100%;
+    padding: 20px 10px 0px 10px; }
+    body .Que-Es .container div {
+      padding: 0px; }
+    body .Que-Es .container h3 {
+      text-align: center;
+      padding: 15px; }
+    body .Que-Es .container p {
+      padding: 15px;
+      color: #fff; } }
 
 /*# sourceMappingURL=style.css.map */

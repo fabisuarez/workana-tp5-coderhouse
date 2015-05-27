@@ -16,8 +16,11 @@ body{
 		background-size: cover;
 		background: url("../images/slider.jpg");
 		width: 100%;
+		 background-position: top center;
 		.container{
 			width: 870px;
+            overflow: hidden;
+
 			.Header-Logo{
 				padding: 20px 0px;
 				img{
@@ -27,9 +30,10 @@ body{
 				}
 			}
 			.Header-Menu{
-				padding: 20px 0;
+				padding: 25px 0;
 				nav{
 					padding-left: 40px;
+					  float: right;
 					ul{
 						li{
 							a{
@@ -78,7 +82,7 @@ body{
 				}
 			}
 			.Header-Frase{
-				padding: 179px 0 110px 0;
+				padding: 176px 0 110px 0;
 				p{
 					padding: 15px 12px;
 					background: rgba(0, 0, 0, 0.5);
@@ -100,6 +104,8 @@ body{
 		.container{
 			width: 870px;
 			padding: 10px;
+                overflow: hidden;
+
 			h2{
 				font-size: 38px;
 				color: $naranja;
@@ -125,9 +131,12 @@ body{
 		background-size: cover;
 		background: url("../images/recursos-bg.jpg");
 		width: 100%;
+        background-position: top center;
 		.container{
 			width: 870px;
 			padding: 40px 0 90px 0;
+                overflow: hidden;
+
 			h3{
 				font-size: 28px;
 				color: $blanco;
@@ -165,9 +174,12 @@ body{
 		background-size: cover;
 		background: url("../images/comentarios-bg.jpg");
 		width: 100%;
+		background-position: top center;
 		.container{
 			width: 1075px;
 			padding: 40px 0 0px 0;
+                overflow: hidden;
+
 			.Comentario{
 				span{
 				    color: #fff;
@@ -234,7 +246,7 @@ body{
 					}
 					h4{
 						color: $blanco;
-						  font-size: 20px;
+						  font-size: 16px;
 						  text-align: left;
 						  margin-bottom: 0;
 					opacity: 0.5;
@@ -242,7 +254,7 @@ body{
 					}
 					p{
 						color: $blanco;
-						font-size: 10px;
+						font-size: 8px;
 						  font-style: italic;
 						  font-weight: lighter;
 						  line-height: 12px;
@@ -279,6 +291,8 @@ body{
 		.container{
 			width: 1000px;
 			padding: 10px;
+                overflow: hidden;
+
 			p{
 				color: $blanco;
 				font-size: 32px;
@@ -313,9 +327,13 @@ body{
 		background-size: cover;
 		background: url("../images/latin-crea-bg.jpg");
 		width: 100%;
+		background-position: top center;
+
 		.container{
 			width: 870px;
 			padding: 70px 0 92px 0;
+                overflow: hidden;
+
 			h3{
 				font-size: 28px;
 				color: #333333;
@@ -337,9 +355,13 @@ body{
 		background-size: cover;
 		background: url("../images/que-es-workana-bg.jpg");
 		width: 100%;
+		background-position: top center;
+
 		.container{
 			width: 1075px;
 			padding: 90px 0 114px 0;
+                overflow: hidden;
+
 			h3{
 				font-size: 28px;
 				color: $blanco;
